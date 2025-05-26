@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class UserComponent {
 
+ constructor() {  
+  console.log('UserComponent initialized');
+ }
 }
